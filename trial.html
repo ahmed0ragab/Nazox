@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en"  >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+     <!--including of bootstap file for css-->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+     <link rel="stylesheet" href="css/trial.css">
+     <!--then including of css files -->
+    <style>
+      li , .nav-item {
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-top: 10px;
+       
+      }
+      .navbar {
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        /* margin-right: 1px;
+        margin-left: 1px; */
+      }
+    </style>
+
+    <title>Trial</title>
+</head>
+<body style="background-color: wheat;">
+    <nav class="navbar navbar-expand-lg bg-body-secondary" style=" height: 50px;"   >
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item setting-icon " >
+                    <i class="bi bi-gear"></i>
+              </li>
+              <li class="nav-item">
+                <p class="d-flex"><i class="bi bi-chevron-down "></i>Kevin <img src="avatar-2.jpg" width="30" height="30" class="d-flex rounded-pill"></p>
+               
+              </li>
+              <li class="nav-item">
+                <a href="#"><i class="bi bi-bell-fill"></i></a>
+                
+              </li>
+              <li class="nav-item">
+                <i class="bi bi-square"></i>
+              </li>
+              <li class="nav-item">
+                <i class="bi bi-grid"></i>
+              </li>
+              <li class="nav-item">
+                <img src="us.jpg" width="30" height="15">
+              </li>
+            </ul>
+            <div class="nav-item me-2 mt-2 " style="padding-bottom: 15px;" >
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i  class="bi bi-chevron-down d-flex ">  <span class="d-flex">Menue item </span></i>
+              
+                </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+              </div>
+                <input class="form-control me-2 rounded-pill bg-secondary " style="width: 200px;" type="search" placeholder="Search" aria-label="Search">
+                <span class="navbar-toggler-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" ></span>
+              </div>
+      </nav>
+      <!--OFFCANVAS START -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          ...
+        </div>
+      </div>
+      <!--OFFCANVAS END -->
+      <!-- the following code for creating head in main  -->
+       <div class="row dashboard-head">
+          <div class="col ">Dashboard>nazox</div>
+          <div class="col text-end"> <b>Dashboard</b> </div>
+          <div class="col text-end"> </div>
+      </div>
+      <!-- the following code  for creating the structure of page  -->
+       <!-- ################################################## -->
+      <div class="fluid-container ">
+        <!-- i devided the structure into one main row  -->
+        <div class="row main-row">
+          <!-- the main row contain two main cols  -->
+           <!-- first main col -->
+            <!-- ############################################## -->
+          <div class="col-3  ">
+              <!-- contain three rows  -->
+              <!-- first row -->
+              <div class="row first-row-in-first-col  ">
+                 <div class="col ">hello</div>
+              </div>
+              <!-- second row -->
+              <div class="row second-row-in-first-col  ">
+                  <div class="col">hello</div>
+              </div>
+              <!-- third row -->
+              <div class="row third-row-in-first-col ">
+                  <div class="col">hello</div>
+              </div>
+          </div>
+          <!-- ################################################ -->
+          <!-- second main col -->
+          <div class="col-7 ">
+            <div class="row first-row-in-second-col">
+              <div class="col col1">hello</div>
+              <div class="col col2">hello</div>
+              <div class="col col3">hello</div>
+            </div>
+            <div class="row  second-row-in-second-col ">
+              <div class="col  first-col-in-second-row-in-second-col">
+                hello
+              </div> 
+            </div>
+            <div class="row third-row-in-second-col ">
+              <div class="col first-col-in-third-row-in-second-col ">hello </div>
+              <div class="col second-col-in-third-row-in-second-col ">hello </div>
+            </div>
+          </div>
+        </div>
+        <div class="row main-two">
+          <div class="col-7 first  ">hello </div>
+          <div class="col-3 second ">hello </div>
+        </div>
+      </div> 
+      <div class="foot">
+        <div class="row ">
+          <div class="col text-muted align-text-center ">crafted with by theme desiner</div> 
+          <div class="col text-muted text-end ">.nazox 2023</div> 
+        </div>
+      </div>
+      
+    
+   <!--inlcuding of bootstrap file for js-->
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <!--including of js file-->
+   <script src="js/main.js"></script>   
+</body>
+</html>

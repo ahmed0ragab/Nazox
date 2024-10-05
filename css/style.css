@@ -1,4 +1,23 @@
-.carousel-item{
-    width: 100%;
-    height: auto;
+.kebab-case {
+background-color: gray;
+}
+.kebab-case {
+    background-color: rgb(231, 20, 20);
+    background-color: #ff0000; 
+      /* the background img property used to add the property   */
+    background-image: url(../avatar-2.jpg);
+    /* repeat the background or no-repeat of the background */
+    background-repeat: no-repeat;
+    /* use fixed or scroll */
+    background-attachment: fixed;
+    /* background position use the directions */
+    background-position: center center;
+    /* background size property may be cover or contain  */
+    background-size: 100%;
+}
+.padding {
+background-color: gray;
+height: 200px;
+padding-top: 20px;
+margin-top: 20px;
 }
